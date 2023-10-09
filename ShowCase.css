@@ -1,0 +1,54 @@
+.posting-textbox {
+    width: 100%;    
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .comment-section {
+    position: absolute;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    left: 40%;
+    max-height: 200px; 
+    overflow-y: auto;
+  }
+
+  .like-button { 
+    display: inline-block;
+    position: relative;
+    left: -300px;
+    padding: 5px 10px;
+    background-color: black;
+    color: black;
+    border: none;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    
+    margin-top: 60px;
+    margin-bottom: -20px;
+  }
+  
+  .comment-box {
+    position: absolute;
+    left: 0;
+  width: 100%;
+  top: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+
+  .circleImage {
+    
+    margin-top:-200x;
+    position: relative;
+    left: -500px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+  }
